@@ -1,4 +1,4 @@
-name: lens-conversion
+name: na-cordex-zarr-jnb
 channels:
   - conda-forge
 dependencies:
@@ -21,6 +21,7 @@ dependencies:
   - dask-jobqueue
   - tqdm
   - matplotlib
+  - nodejs>=12.0.0
   - pip:
        - ncar-jobqueue
        - git+https://github.com/NCAR/intake-esm.git@master
